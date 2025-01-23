@@ -27,7 +27,7 @@
 
             src = ./..;
 
-            npmDepsHash = "sha256-yPTxj8bSBepp+bJTK82LHtdM+jcJ9S0nhXFCeiRrhos="; # you will get an error about mismatching hash the first time. Just copy the hash here
+            npmDepsHash = "sha256-yPTxj8bSBepp+bJTK82LHtdM+jcJ9S0nhXFCeiRrhos="; # you will get an error about mismatching hash the first time. Just copy and paste the hash here
 
             # Useful for debugging, just run "nix-shell" and then "electron ."
             nativeBuildInputs = [

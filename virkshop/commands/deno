@@ -1,0 +1,6 @@
+# wrapper around deno, so that it ignores the lock and config files by default
+if [ "$#" -ne 0 ]; then
+    "$(which -a deno | tail -1)" "$@"
+else
+    "$(which -a deno | tail -1)" repl -A --no-lock --no-config
+fi
