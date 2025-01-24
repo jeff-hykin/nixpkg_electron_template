@@ -1,0 +1,1 @@
+nix repl -I nixpkgs=https://github.com/NixOS/nixpkgs/archive/05bbf675397d5366259409139039af8077d695ce.tar.gz
