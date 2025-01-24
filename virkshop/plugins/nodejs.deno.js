@@ -23,10 +23,11 @@ export default ({id, pluginSettings, virkshop, shellApi, helpers })=>({
         // },
     },
     events: {
-        async '@setup_with_system_tools/qmk'() {
+        async '@setup_with_system_tools/nodejs'() {
+            // shortTermDoOneTime means it will be stored in cache whether or not this command is run
             helpers.shortTermDoOneTime(async ()=>{
-                console.log(`        [qmk] runing qmk setup`)
-                await $$`qmk --interactive setup -H ${virkshop.pathTo.project}/home`.stdinText(`y\ny\ny\ny\n`)
+                console.log(`        [nodejs] runing npm install`)
+                await $$`npm install`
             })
         },
         // async '@setup_without_system_tools/python'() {
