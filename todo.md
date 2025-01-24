@@ -1,0 +1,2 @@
+- `nix-build ./nix/package.nix` works, generates a folder with a binary. But it doesn't bundle everything. There's a supporting folder, and modifying it breaks the output.
+- Need to find a way to build an actual MacOS application, and a linux AppImage (or similar)
