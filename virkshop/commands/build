@@ -1,0 +1,2 @@
+echo "Building for MacOS"
+npx electron-builder --mac -c.electronVersion "$(electron -v)"
