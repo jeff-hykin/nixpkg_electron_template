@@ -4,4 +4,4 @@ virkshop:
         # "$PROJECT_FOLDER/commands":      "$VIRKSHOP_FOLDER/commands"
         # "$PROJECT_FOLDER/events":        "$VIRKSHOP_FOLDER/events"
     
-    debuggingLevel: 1
+    debuggingLevel: 2
