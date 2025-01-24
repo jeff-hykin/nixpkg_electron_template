@@ -1,0 +1,2 @@
+# wrapper around deno, so that it ignores the lock and config files by default
+electron --inspect=9222 .
