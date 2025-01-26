@@ -20,6 +20,19 @@ export const deadlines = {
             }
         }
         
+        let isFile = false
+        try {
+            isFile = Deno.lstatSync(`${Deno.env.get("HOME")}/.nix-profile/manifest.nix`).isFile
+        } catch (error) {
+            
+        }
+        if (!isFile) {
+            // install any package with nix-env just to init the profile (electron-packager needs it for some reason)
+            await $$`nix-env -iA which -f '<nixpkgs>'`
+        }
+        
+        
+        
         // let exists = false
         // try {
         //     isDirectory = Deno.lstatSync("/nix/var/nix/profiles/per-user/root/channels").isDirectory

@@ -1,2 +1,15 @@
 echo "Building for MacOS"
-npx electron-builder --mac -c.electronVersion "$(electron -v)"
+
+# nix permissions are weird, and the copy operation copies the permissions, so we have to reset them to delete them
+if [ -e "./dist" ]
+then
+    chown -R "$(whoami)" ./dist
+    chmod -R 777 ./dist
+    rm -rf ./dist
+fi
+
+# overwrite option doesn't always work cause of permissions, oh well
+app_name="my-app"
+npx electron-packager . "$app_name" --electron-version "$(electron -v)"  --platform=darwin --arch=arm64 --out=dist --overwrite 
+
+./dist/"$app_name"-darwin-arm64/"$app_name".app/Contents/MacOS/"$app_name"

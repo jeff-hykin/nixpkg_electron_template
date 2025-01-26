@@ -14,12 +14,18 @@
   },
   "build": {
     "appId": "com.example.myapp",
+    "files": [
+      "main/**/*"
+    ],
+    "directories": {
+      "buildResources": "main"
+    },
     "mac": {
       "target": "dmg",
       "category": "public.app-category.utilities"
     }
   },
   "devDependencies": {
-    "electron-builder": "^25.1.8"
+    "electron-packager": "^17.1.2"
   }
 }
