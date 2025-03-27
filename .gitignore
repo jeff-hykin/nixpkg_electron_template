@@ -1,1 +1,5 @@
 node_modules
+virkshop
+.DS_Store
+dist
+*.ignore
