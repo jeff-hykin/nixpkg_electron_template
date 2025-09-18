@@ -1,0 +1,6 @@
+- test on linux
+- cross compile for linux from mac
+- cross compile for windows from mac
+- es imports / bundling
+- single file source
+- plugins (ex: serial, gps, usb, bluetooth, etc)
