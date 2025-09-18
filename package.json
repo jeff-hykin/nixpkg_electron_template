@@ -11,5 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "electron-packager": "^17.1.2"
   }
 }
