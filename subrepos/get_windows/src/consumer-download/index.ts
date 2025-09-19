@@ -1,6 +1,6 @@
 import path from 'node:path'
-import { parse as parseHtml } from 'npm:node-html-parser' /* CHECKME: file(s) didn't exist, assuming npm */
-import { v4 as uuidv4 } from 'npm:uuid' /* CHECKME: file(s) didn't exist, assuming npm */
+import { parse as parseHtml } from 'https://esm.sh/node-html-parser@7.0.1'
+import { v4 as uuidv4 } from 'https://esm.sh/uuid@13.0.0'
 import { WinIsoChecksumError, WinIsoRateLimitError } from '../errors.ts'
 import { downloadFile } from '../utils/download.ts'
 import { getFileHash } from '../utils/checksum.ts'

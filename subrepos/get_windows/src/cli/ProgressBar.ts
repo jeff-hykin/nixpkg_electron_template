@@ -1,5 +1,5 @@
-import cliProgress from 'npm:cli-progress' /* CHECKME: file(s) didn't exist, assuming npm */
-import prettyBytes from 'npm:pretty-bytes' /* CHECKME: file(s) didn't exist, assuming npm */
+import cliProgress from 'https://esm.sh/cli-progress@3.12.0'
+import prettyBytes from 'https://esm.sh/pretty-bytes@7.0.1'
 import { type DownloadProgress } from '../types.ts'
 
 export default class ProgressBar {

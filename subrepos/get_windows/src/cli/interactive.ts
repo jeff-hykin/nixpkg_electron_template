@@ -1,7 +1,7 @@
 import fs from 'node:fs'
 import fsAsync from 'node:fs/promises'
-import { select, input } from 'npm:@inquirer/prompts' /* CHECKME: file(s) didn't exist */
-import ora, { type Ora } from 'npm:ora' /* CHECKME: file(s) didn't exist, assuming npm */
+import { select, input } from 'https://esm.sh/@inquirer/prompts@7.8.6'
+import ora, { type Ora } from 'https://esm.sh/ora@9.0.0?target=es2022'
 import { download } from '../index.ts'
 import { WinIsoChecksumError } from '../errors.ts'
 import languages from '../consumer-download/languages.ts'

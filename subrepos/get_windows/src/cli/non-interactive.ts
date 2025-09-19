@@ -1,14 +1,16 @@
 import fs from 'node:fs'
 import fsAsync from 'node:fs/promises'
 import path from 'node:path'
-import { Command, Option } from 'npm:commander' /* CHECKME: file(s) didn't exist, assuming npm */
-import chalk from 'npm:chalk' /* CHECKME: file(s) didn't exist, assuming npm */
-import ora, { type Ora } from 'npm:ora' /* CHECKME: file(s) didn't exist, assuming npm */
+import { Command, Option } from 'https://esm.sh/commander@14.0.1'
+import chalk from 'https://esm.sh/chalk@5.6.2'
+import ora, { type Ora } from 'https://esm.sh/ora@9.0.0?target=es2022'
 import { download } from '../index.ts'
 import { WinIsoChecksumError } from '../errors.ts'
 import languages, { type Language } from '../consumer-download/languages.ts'
 import ProgressBar from './ProgressBar.ts'
 import { options } from './download-options.ts'
+
+var __dirname = import.meta.dirname
 
 export const nonInteractive = async () => {
   if (process.env.WIN_ISO_DEV === 'true') {

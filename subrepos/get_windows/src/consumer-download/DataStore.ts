@@ -1,6 +1,6 @@
 import fs from 'node:fs/promises'
 import path from 'node:path'
-import { parse as parseHtml, type HTMLElement } from 'npm:node-html-parser' /* CHECKME: file(s) didn't exist, assuming npm */
+import { parse as parseHtml, type HTMLElement } from 'https://esm.sh/node-html-parser@7.0.1'
 import { request } from './request.ts'
 import { type LanguageSkuIdTable, type ProductDownload } from './types.ts'
 

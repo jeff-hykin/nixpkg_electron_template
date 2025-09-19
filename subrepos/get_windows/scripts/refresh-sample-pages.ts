@@ -6,7 +6,7 @@
 import fs from 'node:fs/promises'
 import path from 'node:path'
 import url from 'node:url'
-import { v4 as uuidv4 } from 'npm:uuid' /* CHECKME: file(s) didn't exist, assuming npm */
+import { v4 as uuidv4 } from 'https://esm.sh/uuid@13.0.0'
 import { DataStore } from '../src/consumer-download/DataStore.ts'
 import { request } from '../src/consumer-download/request.ts'
 

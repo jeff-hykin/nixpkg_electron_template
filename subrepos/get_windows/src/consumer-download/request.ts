@@ -1,6 +1,6 @@
-import axios, { AxiosError, type AxiosRequestConfig } from 'npm:axios' /* CHECKME: file(s) didn't exist, assuming npm */
-import { wrapper } from 'npm:axios-cookiejar-support' /* CHECKME: file(s) didn't exist, assuming npm */
-import { CookieJar } from 'npm:tough-cookie' /* CHECKME: file(s) didn't exist, assuming npm */
+import axios, { AxiosError, type AxiosRequestConfig } from 'https://esm.sh/axios@1.12.2'
+import { wrapper } from 'https://esm.sh/axios-cookiejar-support@6.0.4'
+import { CookieJar } from 'https://esm.sh/tough-cookie@6.0.0'
 import { WinIsoNetworkError } from '../errors.ts'
 
 const jar = new CookieJar()

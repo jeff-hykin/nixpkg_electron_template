@@ -1,6 +1,6 @@
 import fs from 'node:fs'
 import path from 'node:path'
-import { describe, test, beforeAll } from 'npm:vitest' /* CHECKME: file(s) didn't exist, assuming npm */
+import { describe, test, beforeAll } from 'https://esm.sh/vitest@3.2.4'
 import { download } from '../src/index.ts'
 
 describe('Win10x64', () => {
