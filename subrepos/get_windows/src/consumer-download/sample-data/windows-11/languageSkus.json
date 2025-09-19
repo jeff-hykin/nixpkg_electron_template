@@ -1,0 +1,465 @@
+{
+  "Skus": [
+    {
+      "Id": "17433",
+      "Description": "Redstone Windows Consumer x64 OEM/Retail AR-SA DVD9",
+      "ProductDisplayName": "Windows 11 23H2_v2",
+      "Language": "Arabic",
+      "LocalizedLanguage": "Arabic",
+      "LocalizedProductDisplayName": "Windows 11  Arabic",
+      "ProductEditionName": null,
+      "FriendlyFileNames": [
+        "Win11_23H2_Arabic_x64v2.iso"
+      ]
+    },
+    {
+      "Id": "17460",
+      "Description": "Redstone Windows Consumer x64 OEM/Retail PT-BR DVD9",
+      "ProductDisplayName": "Windows 11 23H2_v2",
+      "Language": "Brazilian Portuguese",
+      "LocalizedLanguage": "Brazilian Portuguese",
+      "LocalizedProductDisplayName": "Windows 11  Brazilian Portuguese",
+      "ProductEditionName": null,
+      "FriendlyFileNames": [
+        "Win11_23H2_BrazilianPortuguese_x64v2.iso"
+      ]
+    },
+    {
+      "Id": "17434",
+      "Description": "Redstone Windows Consumer x64 OEM/Retail BG-BG DVD9",
+      "ProductDisplayName": "Windows 11 23H2_v2",
+      "Language": "Bulgarian",
+      "LocalizedLanguage": "Bulgarian",
+      "LocalizedProductDisplayName": "Windows 11  Bulgarian",
+      "ProductEditionName": null,
+      "FriendlyFileNames": [
+        "Win11_23H2_Bulgarian_x64v2.iso"
+      ]
+    },
+    {
+      "Id": "17436",
+      "Description": "Redstone Windows Consumer x64 OEM/Retail ZH-CN DVD9",
+      "ProductDisplayName": "Windows 11 23H2_v2",
+      "Language": "Chinese (Simplified)",
+      "LocalizedLanguage": "Chinese Simplified",
+      "LocalizedProductDisplayName": "Windows 11  Chinese (Simplified)",
+      "ProductEditionName": null,
+      "FriendlyFileNames": [
+        "Win11_23H2_Chinese_Simplified_x64v2.iso"
+      ]
+    },
+    {
+      "Id": "17437",
+      "Description": "Redstone Windows Consumer x64 OEM/Retail ZH-TW DVD9",
+      "ProductDisplayName": "Windows 11 23H2_v2",
+      "Language": "Chinese (Traditional)",
+      "LocalizedLanguage": "Chinese Traditional",
+      "LocalizedProductDisplayName": "Windows 11  Chinese (Traditional)",
+      "ProductEditionName": null,
+      "FriendlyFileNames": [
+        "Win11_23H2_Chinese_Traditional_x64v2.iso"
+      ]
+    },
+    {
+      "Id": "17438",
+      "Description": "Redstone Windows Consumer x64 OEM/Retail HR-HR DVD9",
+      "ProductDisplayName": "Windows 11 23H2_v2",
+      "Language": "Croatian",
+      "LocalizedLanguage": "Croatian",
+      "LocalizedProductDisplayName": "Windows 11  Croatian",
+      "ProductEditionName": null,
+      "FriendlyFileNames": [
+        "Win11_23H2_Croatian_x64v2.iso"
+      ]
+    },
+    {
+      "Id": "17439",
+      "Description": "Redstone Windows Consumer x64 OEM/Retail CS-CZ DVD9",
+      "ProductDisplayName": "Windows 11 23H2_v2",
+      "Language": "Czech",
+      "LocalizedLanguage": "Czech",
+      "LocalizedProductDisplayName": "Windows 11  Czech",
+      "ProductEditionName": null,
+      "FriendlyFileNames": [
+        "Win11_23H2_Czech_x64v2.iso"
+      ]
+    },
+    {
+      "Id": "17440",
+      "Description": "Redstone Windows Consumer x64 OEM/Retail DA-DK DVD9",
+      "ProductDisplayName": "Windows 11 23H2_v2",
+      "Language": "Danish",
+      "LocalizedLanguage": "Danish",
+      "LocalizedProductDisplayName": "Windows 11  Danish",
+      "ProductEditionName": null,
+      "FriendlyFileNames": [
+        "Win11_23H2_Danish_x64v2.iso"
+      ]
+    },
+    {
+      "Id": "17441",
+      "Description": "Redstone Windows Consumer x64 OEM/Retail NL-NL DVD9",
+      "ProductDisplayName": "Windows 11 23H2_v2",
+      "Language": "Dutch",
+      "LocalizedLanguage": "Dutch",
+      "LocalizedProductDisplayName": "Windows 11  Dutch",
+      "ProductEditionName": null,
+      "FriendlyFileNames": [
+        "Win11_23H2_Dutch_x64v2.iso"
+      ]
+    },
+    {
+      "Id": "17442",
+      "Description": "Redstone Windows Consumer x64 OEM/Retail en-us DVD9",
+      "ProductDisplayName": "Windows 11 23H2_v2",
+      "Language": "English",
+      "LocalizedLanguage": "English (United States)",
+      "LocalizedProductDisplayName": "Windows 11  English",
+      "ProductEditionName": null,
+      "FriendlyFileNames": [
+        "Win11_23H2_English_x64v2.iso"
+      ]
+    },
+    {
+      "Id": "17443",
+      "Description": "Redstone Windows Consumer x64 OEM/Retail en-GB DVD9",
+      "ProductDisplayName": "Windows 11 23H2_v2",
+      "Language": "English International",
+      "LocalizedLanguage": "English International",
+      "LocalizedProductDisplayName": "Windows 11  English International",
+      "ProductEditionName": null,
+      "FriendlyFileNames": [
+        "Win11_23H2_EnglishInternational_x64v2.iso"
+      ]
+    },
+    {
+      "Id": "17444",
+      "Description": "Redstone Windows Consumer x64 OEM/Retail ET-EE DVD9",
+      "ProductDisplayName": "Windows 11 23H2_v2",
+      "Language": "Estonian",
+      "LocalizedLanguage": "Estonian",
+      "LocalizedProductDisplayName": "Windows 11  Estonian",
+      "ProductEditionName": null,
+      "FriendlyFileNames": [
+        "Win11_23H2_Estonian_x64v2.iso"
+      ]
+    },
+    {
+      "Id": "17445",
+      "Description": "Redstone Windows Consumer x64 OEM/Retail FI-FI DVD9",
+      "ProductDisplayName": "Windows 11 23H2_v2",
+      "Language": "Finnish",
+      "LocalizedLanguage": "Finnish",
+      "LocalizedProductDisplayName": "Windows 11  Finnish",
+      "ProductEditionName": null,
+      "FriendlyFileNames": [
+        "Win11_23H2_Finnish_x64v2.iso"
+      ]
+    },
+    {
+      "Id": "17446",
+      "Description": "Redstone Windows Consumer x64 OEM/Retail fr-fr DVD9",
+      "ProductDisplayName": "Windows 11 23H2_v2",
+      "Language": "French",
+      "LocalizedLanguage": "French",
+      "LocalizedProductDisplayName": "Windows 11  French",
+      "ProductEditionName": null,
+      "FriendlyFileNames": [
+        "Win11_23H2_French_x64v2.iso"
+      ]
+    },
+    {
+      "Id": "17447",
+      "Description": "Redstone Windows Consumer x64 OEM/Retail fr-CA DVD9",
+      "ProductDisplayName": "Windows 11 23H2_v2",
+      "Language": "French Canadian",
+      "LocalizedLanguage": "French Canadian",
+      "LocalizedProductDisplayName": "Windows 11  French Canadian",
+      "ProductEditionName": null,
+      "FriendlyFileNames": [
+        "Win11_23H2_FrenchCanadian_x64v2.iso"
+      ]
+    },
+    {
+      "Id": "17448",
+      "Description": "Redstone Windows Consumer x64 OEM/Retail de-de DVD9",
+      "ProductDisplayName": "Windows 11 23H2_v2",
+      "Language": "German",
+      "LocalizedLanguage": "German",
+      "LocalizedProductDisplayName": "Windows 11  German",
+      "ProductEditionName": null,
+      "FriendlyFileNames": [
+        "Win11_23H2_German_x64v2.iso"
+      ]
+    },
+    {
+      "Id": "17449",
+      "Description": "Redstone Windows Consumer x64 OEM/Retail EL-GR DVD9",
+      "ProductDisplayName": "Windows 11 23H2_v2",
+      "Language": "Greek",
+      "LocalizedLanguage": "Greek",
+      "LocalizedProductDisplayName": "Windows 11  Greek",
+      "ProductEditionName": null,
+      "FriendlyFileNames": [
+        "Win11_23H2_Greek_x64v2.iso"
+      ]
+    },
+    {
+      "Id": "17450",
+      "Description": "Redstone Windows Consumer x64 OEM/Retail HE-IL DVD9",
+      "ProductDisplayName": "Windows 11 23H2_v2",
+      "Language": "Hebrew",
+      "LocalizedLanguage": "Hebrew",
+      "LocalizedProductDisplayName": "Windows 11  Hebrew",
+      "ProductEditionName": null,
+      "FriendlyFileNames": [
+        "Win11_23H2_Hebrew_x64v2.iso"
+      ]
+    },
+    {
+      "Id": "17451",
+      "Description": "Redstone Windows Consumer x64 OEM/Retail HU-HU DVD9",
+      "ProductDisplayName": "Windows 11 23H2_v2",
+      "Language": "Hungarian",
+      "LocalizedLanguage": "Hungarian",
+      "LocalizedProductDisplayName": "Windows 11  Hungarian",
+      "ProductEditionName": null,
+      "FriendlyFileNames": [
+        "Win11_23H2_Hungarian_x64v2.iso"
+      ]
+    },
+    {
+      "Id": "17452",
+      "Description": "Redstone Windows Consumer x64 OEM/Retail it-it DVD9",
+      "ProductDisplayName": "Windows 11 23H2_v2",
+      "Language": "Italian",
+      "LocalizedLanguage": "Italian",
+      "LocalizedProductDisplayName": "Windows 11  Italian",
+      "ProductEditionName": null,
+      "FriendlyFileNames": [
+        "Win11_23H2_Italian_x64v2.iso"
+      ]
+    },
+    {
+      "Id": "17453",
+      "Description": "Redstone Windows Consumer x64 OEM/Retail ja-jp DVD9",
+      "ProductDisplayName": "Windows 11 23H2_v2",
+      "Language": "Japanese",
+      "LocalizedLanguage": "Japanese",
+      "LocalizedProductDisplayName": "Windows 11  Japanese",
+      "ProductEditionName": null,
+      "FriendlyFileNames": [
+        "Win11_23H2_Japanese_x64v2.iso"
+      ]
+    },
+    {
+      "Id": "17454",
+      "Description": "Redstone Windows Consumer x64 OEM/Retail KO-KR DVD9",
+      "ProductDisplayName": "Windows 11 23H2_v2",
+      "Language": "Korean",
+      "LocalizedLanguage": "Korean",
+      "LocalizedProductDisplayName": "Windows 11  Korean",
+      "ProductEditionName": null,
+      "FriendlyFileNames": [
+        "Win11_23H2_Korean_x64v2.iso"
+      ]
+    },
+    {
+      "Id": "17455",
+      "Description": "Redstone Windows Consumer x64 OEM/Retail LV-LV DVD9",
+      "ProductDisplayName": "Windows 11 23H2_v2",
+      "Language": "Latvian",
+      "LocalizedLanguage": "Latvian",
+      "LocalizedProductDisplayName": "Windows 11  Latvian",
+      "ProductEditionName": null,
+      "FriendlyFileNames": [
+        "Win11_23H2_Latvian_x64v2.iso"
+      ]
+    },
+    {
+      "Id": "17456",
+      "Description": "Redstone Windows Consumer x64 OEM/Retail LT-LT DVD9",
+      "ProductDisplayName": "Windows 11 23H2_v2",
+      "Language": "Lithuanian",
+      "LocalizedLanguage": "Lithuanian",
+      "LocalizedProductDisplayName": "Windows 11  Lithuanian",
+      "ProductEditionName": null,
+      "FriendlyFileNames": [
+        "Win11_23H2_Lithuanian_x64v2.iso"
+      ]
+    },
+    {
+      "Id": "17457",
+      "Description": "Redstone Windows Consumer x64 OEM/Retail NB-NO DVD9",
+      "ProductDisplayName": "Windows 11 23H2_v2",
+      "Language": "Norwegian",
+      "LocalizedLanguage": "Norwegian",
+      "LocalizedProductDisplayName": "Windows 11  Norwegian",
+      "ProductEditionName": null,
+      "FriendlyFileNames": [
+        "Win11_23H2_Norwegian_x64v2.iso"
+      ]
+    },
+    {
+      "Id": "17458",
+      "Description": "Redstone Windows Consumer x64 OEM/Retail PL-PL DVD9",
+      "ProductDisplayName": "Windows 11 23H2_v2",
+      "Language": "Polish",
+      "LocalizedLanguage": "Polish",
+      "LocalizedProductDisplayName": "Windows 11  Polish",
+      "ProductEditionName": null,
+      "FriendlyFileNames": [
+        "Win11_23H2_Polish_x64v2.iso"
+      ]
+    },
+    {
+      "Id": "17459",
+      "Description": "Redstone Windows Consumer x64 OEM/Retail PT-PT DVD9",
+      "ProductDisplayName": "Windows 11 23H2_v2",
+      "Language": "Portuguese",
+      "LocalizedLanguage": "Portuguese",
+      "LocalizedProductDisplayName": "Windows 11  Portuguese",
+      "ProductEditionName": null,
+      "FriendlyFileNames": [
+        "Win11_23H2_Portuguese_x64v2.iso"
+      ]
+    },
+    {
+      "Id": "17461",
+      "Description": "Redstone Windows Consumer x64 OEM/Retail RO-RO DVD9",
+      "ProductDisplayName": "Windows 11 23H2_v2",
+      "Language": "Romanian",
+      "LocalizedLanguage": "Romanian",
+      "LocalizedProductDisplayName": "Windows 11  Romanian",
+      "ProductEditionName": null,
+      "FriendlyFileNames": [
+        "Win11_23H2_Romanian_x64v2.iso"
+      ]
+    },
+    {
+      "Id": "17462",
+      "Description": "Redstone Windows Consumer x64 OEM/Retail RU-RU DVD9",
+      "ProductDisplayName": "Windows 11 23H2_v2",
+      "Language": "Russian",
+      "LocalizedLanguage": "Russian",
+      "LocalizedProductDisplayName": "Windows 11  Russian",
+      "ProductEditionName": null,
+      "FriendlyFileNames": [
+        "Win11_23H2_Russian_x64v2.iso"
+      ]
+    },
+    {
+      "Id": "17463",
+      "Description": "Redstone Windows Consumer x64 OEM/Retail sr-latn-rs DVD9",
+      "ProductDisplayName": "Windows 11 23H2_v2",
+      "Language": "Serbian Latin",
+      "LocalizedLanguage": "Serbian Latin",
+      "LocalizedProductDisplayName": "Windows 11  Serbian Latin",
+      "ProductEditionName": null,
+      "FriendlyFileNames": [
+        "Win11_23H2_SerbianLatin_x64v2.iso"
+      ]
+    },
+    {
+      "Id": "17464",
+      "Description": "Redstone Windows Consumer x64 OEM/Retail SK-SK DVD9",
+      "ProductDisplayName": "Windows 11 23H2_v2",
+      "Language": "Slovak",
+      "LocalizedLanguage": "Slovak",
+      "LocalizedProductDisplayName": "Windows 11  Slovak",
+      "ProductEditionName": null,
+      "FriendlyFileNames": [
+        "Win11_23H2_Slovak_x64v2.iso"
+      ]
+    },
+    {
+      "Id": "17465",
+      "Description": "Redstone Windows Consumer x64 OEM/Retail SL-SI DVD9",
+      "ProductDisplayName": "Windows 11 23H2_v2",
+      "Language": "Slovenian",
+      "LocalizedLanguage": "Slovenian",
+      "LocalizedProductDisplayName": "Windows 11  Slovenian",
+      "ProductEditionName": null,
+      "FriendlyFileNames": [
+        "Win11_23H2_Slovenian_x64v2.iso"
+      ]
+    },
+    {
+      "Id": "17466",
+      "Description": "Redstone Windows Consumer x64 OEM/Retail es-es DVD9",
+      "ProductDisplayName": "Windows 11 23H2_v2",
+      "Language": "Spanish",
+      "LocalizedLanguage": "Spanish",
+      "LocalizedProductDisplayName": "Windows 11  Spanish",
+      "ProductEditionName": null,
+      "FriendlyFileNames": [
+        "Win11_23H2_Spanish_x64v2.iso"
+      ]
+    },
+    {
+      "Id": "17467",
+      "Description": "Redstone Windows Consumer x64 OEM/Retail es-MX DVD9",
+      "ProductDisplayName": "Windows 11 23H2_v2",
+      "Language": "Spanish (Mexico)",
+      "LocalizedLanguage": "Spanish (Mexico)",
+      "LocalizedProductDisplayName": "Windows 11  Spanish (Mexico)",
+      "ProductEditionName": null,
+      "FriendlyFileNames": [
+        "Win11_23H2_Spanish_Mexico_x64v2.iso"
+      ]
+    },
+    {
+      "Id": "17468",
+      "Description": "Redstone Windows Consumer x64 OEM/Retail SV-SE DVD9",
+      "ProductDisplayName": "Windows 11 23H2_v2",
+      "Language": "Swedish",
+      "LocalizedLanguage": "Swedish",
+      "LocalizedProductDisplayName": "Windows 11  Swedish",
+      "ProductEditionName": null,
+      "FriendlyFileNames": [
+        "Win11_23H2_Swedish_x64v2.iso"
+      ]
+    },
+    {
+      "Id": "17469",
+      "Description": "Redstone Windows Consumer x64 OEM/Retail TH-TH DVD9",
+      "ProductDisplayName": "Windows 11 23H2_v2",
+      "Language": "Thai",
+      "LocalizedLanguage": "Thai",
+      "LocalizedProductDisplayName": "Windows 11  Thai",
+      "ProductEditionName": null,
+      "FriendlyFileNames": [
+        "Win11_23H2_Thai_x64v2.iso"
+      ]
+    },
+    {
+      "Id": "17470",
+      "Description": "Redstone Windows Consumer x64 OEM/Retail TR-TR DVD9",
+      "ProductDisplayName": "Windows 11 23H2_v2",
+      "Language": "Turkish",
+      "LocalizedLanguage": "Turkish",
+      "LocalizedProductDisplayName": "Windows 11  Turkish",
+      "ProductEditionName": null,
+      "FriendlyFileNames": [
+        "Win11_23H2_Turkish_x64v2.iso"
+      ]
+    },
+    {
+      "Id": "17471",
+      "Description": "Redstone Windows Consumer x64 OEM/Retail UK-UA DVD9",
+      "ProductDisplayName": "Windows 11 23H2_v2",
+      "Language": "Ukrainian",
+      "LocalizedLanguage": "Ukrainian",
+      "LocalizedProductDisplayName": "Windows 11  Ukrainian",
+      "ProductEditionName": null,
+      "FriendlyFileNames": [
+        "Win11_23H2_Ukrainian_x64v2.iso"
+      ]
+    }
+  ],
+  "ValidationContainer": {
+    "ErrorList": [],
+    "Errors": []
+  },
+  "Tickets": null
+}

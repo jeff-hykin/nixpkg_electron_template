@@ -1,0 +1,63 @@
+{
+  "name": "@kyleupton/win-iso",
+  "version": "0.0.1-alpha.0",
+  "description": "API and CLI tool to download Windows ISO files",
+  "keywords": [
+    "Windows ISO",
+    "download",
+    "node",
+    "CLI",
+    "API"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kyleaupton/win-iso.git"
+  },
+  "license": "MIT",
+  "author": "Kyle Upton <kyleaupton@gmail.com>",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "win-iso": "dist/cli/index.js"
+  },
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "test": "vitest",
+    "build": "rm -rf dist && tsc",
+    "deploy": "yarn build && npm publish --access public",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^6.0.1",
+    "axios": "^1.6.0",
+    "axios-cookiejar-support": "^5.0.3",
+    "chalk": "4.1.2",
+    "cli-progress": "^3.12.0",
+    "commander": "^12.0.0",
+    "node-html-parser": "^6.1.11",
+    "ora": "^8.1.0",
+    "pretty-bytes": "^6.1.1",
+    "tough-cookie": "^5.0.0",
+    "uuid": "^9.0.1",
+    "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "@types/cli-progress": "^3.11.6",
+    "@types/node": "^20.8.9",
+    "@types/uuid": "^9.0.6",
+    "@typescript-eslint/eslint-plugin": "^6.4.0",
+    "eslint": "^8.0.1",
+    "eslint-config-standard-with-typescript": "^39.1.1",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0 || ^16.0.0 ",
+    "eslint-plugin-promise": "^6.0.0",
+    "tsx": "^3.14.0",
+    "typescript": "*",
+    "vitest": "^2.1.1"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
+}

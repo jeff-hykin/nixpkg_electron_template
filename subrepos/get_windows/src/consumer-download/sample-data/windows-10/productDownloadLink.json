@@ -1,0 +1,28 @@
+{
+  "ProductDownloadOptions": [
+    {
+      "Name": "Windows 10  English",
+      "Uri": "https://software.download.prss.microsoft.com/dbazure/Win10_22H2_English_x64v1.iso?t=1c3a2f08-fc1b-42f4-8937-b79f70d7d6a5&P1=1727671948&P2=601&P3=2&P4=cCwg%2f%2bxH3f%2fZsNvdtMiibTzHJXFKTrB%2fHPqsjzosKr9j12RsRGv3k%2fYOtg3FfyAJjxhh22raV4%2fJpwSUggZcvt%2b0bAZUjCqi42GcrnEh0arixmK61bZ1swz7jkV2cYaTYn0m93f8nT8%2f2pwYqlb30lmF4FVpZ2YK7EfFsjUlDnL1ta3RpAVrtTYYBpX9tDtG1DAn%2bit2fTCYQTWuuV6pgzmyTP73IEOPtH6%2bG4ALSDBykbDqsJUKB2YqIvaCUzEujgK4PeXxP6zagDOhv4eOFHsF5yf%2bUmUJt%2fgf7nqIbGt%2fyyEdZIvRqDYnWqTdkiu7wN1oXY%2b27QFYg50ENv2UVQ%3d%3d",
+      "ProductDisplayName": "Windows 10 22H2_v1",
+      "Language": "English",
+      "LocalizedProductDisplayName": "Windows 10  English",
+      "LocalizedLanguage": "English (United States)",
+      "DownloadType": 1
+    },
+    {
+      "Name": "Windows 10  English",
+      "Uri": "https://software.download.prss.microsoft.com/dbazure/Win10_22H2_English_x32v1.iso?t=1c3a2f08-fc1b-42f4-8937-b79f70d7d6a5&P1=1727671948&P2=601&P3=2&P4=Pm1DxWFgsfOP2CD0sy2cOpKYdCyyi0cF2PEZIJrkLeoahXNoe0XcCTFvWzWi2Iq1TIZbyRluTLg2EtzoKVGIkCEA1LbEPA7WKrxydn78ZuqyX5BFk64vFrF1Uc8JLt2tXVNLMOs5D3gixOw7YFSnxNfSOx2nzRMN8YzIyrjsJYaDEpQBQunVR0KAgAWN9EE2wI8PMyR0RztUMzwLH5M%2bFPEWrbcv1q%2fBPQ2O2s09hRqRC9qm6U99qzptuRUuZrsgs8lc2waGCt%2bCZMmUAFj5Ufv52Dni4f14I0dslWkbm6KGBVnJhJlMNyVwpbeKRnMyUQF5dOhvi6lCQqakjozUeg%3d%3d",
+      "ProductDisplayName": "Windows 10 22H2_v1",
+      "Language": "English",
+      "LocalizedProductDisplayName": "Windows 10  English",
+      "LocalizedLanguage": "English (United States)",
+      "DownloadType": 0
+    }
+  ],
+  "ProductDownload": null,
+  "ValidationContainer": {
+    "ErrorList": [],
+    "Errors": []
+  },
+  "DownloadExpirationDatetime": "2024-09-30T04:52:27.9466719Z"
+}

@@ -1,0 +1,19 @@
+{
+  "ProductDownloadOptions": [
+    {
+      "Name": "Windows 11  English",
+      "Uri": "https://software.download.prss.microsoft.com/dbazure/Win11_23H2_English_x64v2.iso?t=f7dbb4c8-0db7-4f03-b3d5-7b2246d964a0&P1=1727730059&P2=601&P3=2&P4=uj0ScI33PiiFoBI3q%2buAQI%2frNFE2JF%2fWjbU2LOy4Y4oPY5PS04G%2b8nQnuKqDkdFZEZFKd1Bi4LFJhC5Etrf5Z8SjhYYmP9VnfPOxGThfMUjqsxS64R7YjSvrp8uLXoOkFJiM22mezh1HLYA%2beaJxK9hbIcbmF6LHiUJi6GFhRJlXaLnfzVSkqDJVPfiHuJF%2fsu5nylPxA5GvwfNGOb6lhlh%2fwPrx9MDRfbFQ%2bZm5W8zRc%2faox5NvVXIytBQMsFZhZOKdnlAS9Ll99e6%2bfU0BM8OhgbAWVwTg4PbphcrfKKO%2fu%2bp43WsB0Xg3Z0ncvUFcTNK3e6Jazopwq8%2f10WKNtQ%3d%3d",
+      "ProductDisplayName": "Windows 11 23H2_v2",
+      "Language": "English",
+      "LocalizedProductDisplayName": "Windows 11  English",
+      "LocalizedLanguage": "English (United States)",
+      "DownloadType": 1
+    }
+  ],
+  "ProductDownload": null,
+  "ValidationContainer": {
+    "ErrorList": [],
+    "Errors": []
+  },
+  "DownloadExpirationDatetime": "2024-09-30T21:00:59.028386Z"
+}
