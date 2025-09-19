@@ -133,12 +133,14 @@
                         pkgs.pkg-config
                     ];
                     macos = [
+                        # for cross compiling to windows
+                        # pkgs.wineWowPackages.staging
+                        # pkgs.nsis
+                        
+                        # other mac stuff
                         pkgs.xcbuild
                         pkgs.xcodebuild
-                        # pkgs.darwin.libobjc 
-                        # pkgs.darwin.apple_sdk.frameworks.CoreServices 
-                        # pkgs.darwin.apple_sdk.frameworks.CoreFoundation 
-                        
+                        # some of these are probably not needed
                         pkgs.clang
                         pkgs.cmake
                         pkgs.python3
@@ -147,20 +149,8 @@
                         pkgs.wb32-dfu-updater
                         pkgs.gnumake
                         pkgs.teensy-loader-cli
-                        # pkgs.python3.pkgs.setuptools
-                        # pkgs.python3.pkgs.dotty-dict
-                        # pkgs.python3.pkgs.hid
-                        # pkgs.python3.pkgs.hjson
-                        # pkgs.python3.pkgs.jsonschema
-                        # pkgs.python3.pkgs.milc
-                        # pkgs.python3.pkgs.pygments
-                        # pkgs.python3.pkgs.pyserial
-                        # pkgs.python3.pkgs.pyusb
-                        # pkgs.python3.pkgs.pillow
                         pkgs.nodejs
                         pkgs.electron
-                        # pkgs.gcc-arm-embedded
-                        # pkgs.gcc
                     ];
                 };
                 nativeBuildInputs = depenencies.common ++ (if pkgs.stdenv.isLinux then depenencies.linux else (if pkgs.stdenv.isDarwin then depenencies.macos else []));
