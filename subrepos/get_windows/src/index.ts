@@ -1,6 +1,6 @@
-import { type Progress } from '@/types'
-import { type Language } from '@/consumer-download/languages'
-import { consumerDownload } from '@/consumer-download'
+import { type Progress } from './types.ts'
+import { type Language } from './consumer-download/languages.ts'
+import { consumerDownload } from './consumer-download/index.ts'
 
 export interface BaseDownloadOptions {
   directory: string

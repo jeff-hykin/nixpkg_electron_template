@@ -1,8 +1,9 @@
 import fs from 'node:fs/promises'
 import path from 'node:path'
-import { parse as parseHtml, type HTMLElement } from 'node-html-parser'
-import { request } from './request'
-import { type LanguageSkuIdTable, type ProductDownload } from './types'
+import { parse as parseHtml, type HTMLElement } from 'npm:node-html-parser' /* CHECKME: file(s) didn't exist, assuming npm */
+import { request } from './request.ts'
+import { type LanguageSkuIdTable, type ProductDownload } from './types.ts'
+
 
 interface DataRetrievalStrategy {
   mainDownloadPage: () => Promise<HTMLElement>

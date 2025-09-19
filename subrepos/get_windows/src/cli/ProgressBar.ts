@@ -1,6 +1,6 @@
-import cliProgress from 'cli-progress'
-import prettyBytes from 'pretty-bytes'
-import { type DownloadProgress } from '../types'
+import cliProgress from 'npm:cli-progress' /* CHECKME: file(s) didn't exist, assuming npm */
+import prettyBytes from 'npm:pretty-bytes' /* CHECKME: file(s) didn't exist, assuming npm */
+import { type DownloadProgress } from '../types.ts'
 
 export default class ProgressBar {
   progressBar: cliProgress.SingleBar

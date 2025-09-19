@@ -1,13 +1,14 @@
 import path from 'node:path'
-import { parse as parseHtml } from 'node-html-parser'
-import { v4 as uuidv4 } from 'uuid'
-import { WinIsoChecksumError, WinIsoRateLimitError } from '../errors'
-import { downloadFile } from '../utils/download'
-import { getFileHash } from '../utils/checksum'
-import { type Progress } from '../types'
-import { DataStore, ProductionStrategy, DebugStrategy } from './DataStore'
-import { request } from './request'
-import { type Language } from './languages'
+import { parse as parseHtml } from 'npm:node-html-parser' /* CHECKME: file(s) didn't exist, assuming npm */
+import { v4 as uuidv4 } from 'npm:uuid' /* CHECKME: file(s) didn't exist, assuming npm */
+import { WinIsoChecksumError, WinIsoRateLimitError } from '../errors.ts'
+import { downloadFile } from '../utils/download.ts'
+import { getFileHash } from '../utils/checksum.ts'
+import { type Progress } from '../types.ts'
+import { DataStore, ProductionStrategy, DebugStrategy } from './DataStore.ts'
+import { request } from './request.ts'
+import { type Language } from './languages.ts'
+
 
 interface ConsumerDownloadOptionsBase {
   language: Language

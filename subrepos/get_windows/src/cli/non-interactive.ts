@@ -1,14 +1,14 @@
 import fs from 'node:fs'
 import fsAsync from 'node:fs/promises'
 import path from 'node:path'
-import { Command, Option } from 'commander'
-import chalk from 'chalk'
-import ora, { type Ora } from 'ora'
-import { download } from '../index'
-import { WinIsoChecksumError } from '../errors'
-import languages, { type Language } from '../consumer-download/languages'
-import ProgressBar from './ProgressBar'
-import { options } from './download-options'
+import { Command, Option } from 'npm:commander' /* CHECKME: file(s) didn't exist, assuming npm */
+import chalk from 'npm:chalk' /* CHECKME: file(s) didn't exist, assuming npm */
+import ora, { type Ora } from 'npm:ora' /* CHECKME: file(s) didn't exist, assuming npm */
+import { download } from '../index.ts'
+import { WinIsoChecksumError } from '../errors.ts'
+import languages, { type Language } from '../consumer-download/languages.ts'
+import ProgressBar from './ProgressBar.ts'
+import { options } from './download-options.ts'
 
 export const nonInteractive = async () => {
   if (process.env.WIN_ISO_DEV === 'true') {

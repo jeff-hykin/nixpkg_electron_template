@@ -1,4 +1,4 @@
-import { exec as old } from 'child_process'
-import { promisify } from 'util'
+import { exec as old } from 'node:child_process'
+import { promisify } from 'node:util'
 
 export const exec = promisify(old)

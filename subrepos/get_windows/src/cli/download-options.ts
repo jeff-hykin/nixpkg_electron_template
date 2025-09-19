@@ -1,4 +1,4 @@
-import { type DownloadOptions } from '..'
+import { type DownloadOptions } from '../index.ts'
 
 type Version = DownloadOptions['version']
 

@@ -1,13 +1,13 @@
 import fs from 'node:fs'
 import fsAsync from 'node:fs/promises'
-import { select, input } from '../inquirer/prompts'
-import ora, { type Ora } from 'ora'
-import { download } from '../index'
-import { WinIsoChecksumError } from '../errors'
-import languages from '../consumer-download/languages'
-import ProgressBar from './ProgressBar'
-import { getDownloadLocationChoices } from './utils'
-import { options } from './download-options'
+import { select, input } from 'npm:@inquirer/prompts' /* CHECKME: file(s) didn't exist */
+import ora, { type Ora } from 'npm:ora' /* CHECKME: file(s) didn't exist, assuming npm */
+import { download } from '../index.ts'
+import { WinIsoChecksumError } from '../errors.ts'
+import languages from '../consumer-download/languages.ts'
+import ProgressBar from './ProgressBar.ts'
+import { getDownloadLocationChoices } from './utils.ts'
+import { options } from './download-options.ts'
 
 export const interactive = async () => {
   if (process.env.WIN_ISO_DEV === 'true') {

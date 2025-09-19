@@ -1,6 +1,7 @@
 import { createWriteStream } from 'node:fs'
 import https from 'node:https'
-import { type DownloadProgress } from '../types'
+import { type DownloadProgress } from '../types.ts'
+
 
 interface DownloadFileOptions {
   url: string

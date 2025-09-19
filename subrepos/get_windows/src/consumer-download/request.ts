@@ -1,7 +1,7 @@
-import axios, { AxiosError, type AxiosRequestConfig } from 'axios'
-import { wrapper } from 'axios-cookiejar-support'
-import { CookieJar } from 'tough-cookie'
-import { WinIsoNetworkError } from '../errors'
+import axios, { AxiosError, type AxiosRequestConfig } from 'npm:axios' /* CHECKME: file(s) didn't exist, assuming npm */
+import { wrapper } from 'npm:axios-cookiejar-support' /* CHECKME: file(s) didn't exist, assuming npm */
+import { CookieJar } from 'npm:tough-cookie' /* CHECKME: file(s) didn't exist, assuming npm */
+import { WinIsoNetworkError } from '../errors.ts'
 
 const jar = new CookieJar()
 const clinet = wrapper(axios.create({ jar }))

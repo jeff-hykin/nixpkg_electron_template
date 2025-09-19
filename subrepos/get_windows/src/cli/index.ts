@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 
-import { interactive } from './interactive'
-import { nonInteractive } from './non-interactive'
+import { interactive } from './interactive.ts'
+import { nonInteractive } from './non-interactive.ts'
+
 
 if (process.argv.length <= 2) {
   interactive()

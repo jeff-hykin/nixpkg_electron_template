@@ -6,9 +6,9 @@
 import fs from 'node:fs/promises'
 import path from 'node:path'
 import url from 'node:url'
-import { v4 as uuidv4 } from 'uuid'
-import { DataStore } from '../src/consumer-download/DataStore'
-import { request } from '../src/consumer-download/request'
+import { v4 as uuidv4 } from 'npm:uuid' /* CHECKME: file(s) didn't exist, assuming npm */
+import { DataStore } from '../src/consumer-download/DataStore.ts'
+import { request } from '../src/consumer-download/request.ts'
 
 const _dirname = path.dirname(url.fileURLToPath(import.meta.url))
 const samplePagesDir = path.resolve(_dirname, '..', 'src', 'sample-pages')
