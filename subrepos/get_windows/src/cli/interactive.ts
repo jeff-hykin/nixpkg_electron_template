@@ -9,7 +9,7 @@ import ProgressBar from './ProgressBar.ts'
 import { getDownloadLocationChoices } from './utils.ts'
 import { options } from './download-options.ts'
 
-export const interactive = async () => {
+export const interactive = async ({downloadTargetPath=null}={}) => {
   if (process.env.WIN_ISO_DEV === 'true') {
     console.log('Dev mode enabled')
   }
@@ -30,17 +30,21 @@ export const interactive = async () => {
     default: 'English (United States)',
     choices: languages.map(x => ({ name: x, value: x }))
   })
-
-  let downloadLocation = await select({
-    message: 'Select where to save the downloaded ISO file',
-    choices: getDownloadLocationChoices()
-  })
-
-  if (downloadLocation === 'custom') {
-    const customLocation = await input({
-      message: 'Enter the custom directory to save the downloaded ISO file'
+  let downloadLocation
+  if (!downloadTargetPath) {
+    downloadLocation = await select({
+        message: 'Select where to save the downloaded ISO file',
+        choices: getDownloadLocationChoices()
     })
-    downloadLocation = customLocation
+
+    if (downloadLocation === 'custom') {
+        const customLocation = await input({
+        message: 'Enter the custom directory to save the downloaded ISO file'
+        })
+        downloadLocation = customLocation
+    }
+  } else {
+    downloadLocation = downloadTargetPath
   }
 
   // Validate the download location
