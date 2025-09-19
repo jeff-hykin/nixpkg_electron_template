@@ -43,13 +43,13 @@ export const interactive = async () => {
     downloadLocation = customLocation
   }
 
-  / Validate the download location
+  // Validate the download location
   if (!fs.existsSync(downloadLocation)) {
     console.error(`Error: Download location ${downloadLocation} does not exist`)
     process.exit(1)
   }
 
-  / Seperator
+  // Seperator
   console.log('')
 
   const genLinkSpinner = ora('Generating download link...').start()
