@@ -63,8 +63,8 @@ export const interactive = async () => {
       language,
       onProgress: (progress) => {
         if (progress.type === 'download') {
-        / If the progress bar has not been created yet, create it
-        / and stop the gen link spinner
+        // If the progress bar has not been created yet, create it
+        // and stop the gen link spinner
           if (!progressBar) {
             genLinkSpinner.succeed('Download link generated!')
             console.log('Downloading...')
@@ -85,7 +85,7 @@ export const interactive = async () => {
     console.log(`\nDownloaded: ${path}`)
   } catch (error) {
     if (error instanceof WinIsoChecksumError) {
-      / Checksum verification failed, delete the downloaded file
+      // Checksum verification failed, delete the downloaded file
       if (error.path) {
         await fsAsync.unlink(error.path)
       }
