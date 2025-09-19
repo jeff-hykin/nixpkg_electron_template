@@ -1,7 +1,7 @@
 import axios, { AxiosError, type AxiosRequestConfig } from 'axios'
 import { wrapper } from 'axios-cookiejar-support'
 import { CookieJar } from 'tough-cookie'
-import { WinIsoNetworkError } from '@/errors'
+import { WinIsoNetworkError } from '../errors'
 
 const jar = new CookieJar()
 const clinet = wrapper(axios.create({ jar }))

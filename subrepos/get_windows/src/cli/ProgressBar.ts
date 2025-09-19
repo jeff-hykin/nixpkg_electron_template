@@ -1,6 +1,6 @@
 import cliProgress from 'cli-progress'
 import prettyBytes from 'pretty-bytes'
-import { type DownloadProgress } from '@/types'
+import { type DownloadProgress } from '../types'
 
 export default class ProgressBar {
   progressBar: cliProgress.SingleBar

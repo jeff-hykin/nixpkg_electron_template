@@ -1,10 +1,10 @@
 import fs from 'node:fs'
 import fsAsync from 'node:fs/promises'
-import { select, input } from '@inquirer/prompts'
+import { select, input } from '../inquirer/prompts'
 import ora, { type Ora } from 'ora'
-import { download } from '@/index'
-import { WinIsoChecksumError } from '@/errors'
-import languages from '@/consumer-download/languages'
+import { download } from '../index'
+import { WinIsoChecksumError } from '../errors'
+import languages from '../consumer-download/languages'
 import ProgressBar from './ProgressBar'
 import { getDownloadLocationChoices } from './utils'
 import { options } from './download-options'
@@ -43,13 +43,13 @@ export const interactive = async () => {
     downloadLocation = customLocation
   }
 
-  // Validate the download location
+  / Validate the download location
   if (!fs.existsSync(downloadLocation)) {
     console.error(`Error: Download location ${downloadLocation} does not exist`)
     process.exit(1)
   }
 
-  // Seperator
+  / Seperator
   console.log('')
 
   const genLinkSpinner = ora('Generating download link...').start()
@@ -63,8 +63,8 @@ export const interactive = async () => {
       language,
       onProgress: (progress) => {
         if (progress.type === 'download') {
-        // If the progress bar has not been created yet, create it
-        // and stop the gen link spinner
+        / If the progress bar has not been created yet, create it
+        / and stop the gen link spinner
           if (!progressBar) {
             genLinkSpinner.succeed('Download link generated!')
             console.log('Downloading...')
@@ -85,11 +85,11 @@ export const interactive = async () => {
     console.log(`\nDownloaded: ${path}`)
   } catch (error) {
     if (error instanceof WinIsoChecksumError) {
-      // Checksum verification failed, delete the downloaded file
+      / Checksum verification failed, delete the downloaded file
       if (error.path) {
         await fsAsync.unlink(error.path)
       }
-      checksumSpinner?.fail('Checksum verification failed. Deleted downloaded file. Please try again. If the checksum verification continues to fail, please open an issue at https://github.com/kyleaupton/win-iso/issues.')
+      checksumSpinner?.fail('Checksum verification failed. Deleted downloaded file. Please try again. If the checksum verification continues to fail, please open an issue at https:/github.com/kyleaupton/win-iso/issues.')
     }
   }
 }
