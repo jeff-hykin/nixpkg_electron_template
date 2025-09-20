@@ -6,7 +6,7 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "start": "electron .",
-        "build": "npx electron-packager . ExampleApp --electron-version \"$(electron -v)\"   --out=dist --overwrite  --ignore=\"^^(?!main||node_modules||package.json||package.json||package-lock.json||.*/main||.*/node_modules||.*/package.json||.*/package.json||.*/package-lock.json)(.+)$\""
+        "build": "npx electron-packager . ExampleApp --electron-version \"$(npx electron --version)\"   --out=dist --overwrite  --ignore=\"^^(?!main||node_modules||package.json||package.json||package-lock.json||.*/main||.*/node_modules||.*/package.json||.*/package.json||.*/package-lock.json)(.+)$\""
     },
     "author": "",
     "license": "ISC",
