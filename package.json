@@ -1,18 +1,29 @@
 {
-  "name": "nixpkg_electron_template",
-  "version": "1.0.0",
-  "description": "",
-  "main": "main/main.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "electron ."
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "lodash": "^4.17.21"
-  },
-  "devDependencies": {
-    "electron-packager": "^17.1.2"
-  }
+    "name": "nixpkg_electron_template",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main/main.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "electron .",
+        "build": "npx electron-packager . ExampleApp --electron-version \"$(electron -v)\"   --out=dist --overwrite  --ignore='^(?!main|node_modules|package.json|package.json|package-lock.json|.*/main|.*/node_modules|.*/package.json|.*/package.json|.*/package-lock.json)(.+)$'"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "lodash": "^4.17.21"
+    },
+    "build": {
+        "appId": "com.example.app",
+        "productName": "ExampleApp",
+        "win": {
+            "target": [
+                "nsis",
+                "zip"
+            ]
+        }
+    },
+    "devDependencies": {
+        "electron-packager": "^17.1.2"
+    }
 }

@@ -21,6 +21,10 @@
                     inherit system;
                     overlays = [
                         fenix.overlays.default 
+                        # ex: patching in a value
+                        # (final: prev: {
+                        #     edk2 = prev.callPackage ./run/edk2.nix {};
+                        # })
                     ];
                     config = {
                         allowUnfree = true;
