@@ -29,7 +29,6 @@ jobs:
                 --out=dist --overwrite `
                 --ignore="^^(?!main||node_modules||package.json||package.json||package-lock.json||.*/main||.*/node_modules||.*/package.json||.*/package.json||.*/package-lock.json)(.+)$"
 
-        npm run build
         shell: pwsh
 
       - name: Upload build artifacts
