@@ -26,7 +26,7 @@ jobs:
         run: |
             $electronVersion=(npx electron --version).Trim().TrimStart("v")
             echo "$electronVersion"
-            npx electron-packager . ExampleApp --electron-version "$electronVersion" `
+            npx electron-packager . ExampleApp --electron-version "38.1.2" `
                 --out=dist --overwrite `
                 --ignore="^^(?!main||node_modules||package.json||package.json||package-lock.json||.*/main||.*/node_modules||.*/package.json||.*/package.json||.*/package-lock.json)(.+)$"
 
