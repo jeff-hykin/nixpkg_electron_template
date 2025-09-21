@@ -17,10 +17,11 @@ jobs:
       - name: Build Electron app
         run: |
             npx electron --version
-            node run/get_electron_version.js
+            $electronVersion3=(node run/get_electron_version.js)
+            echo "3_$electronVersion3 _"
             $electronVersion=(npx electron --version)
             echo "1_$electronVersion _"
-            $electronVersion=(npx electron --version).Substring(2)
+            $electronVersion=$electronVersion.Substring(2)
             $electronVersion2=(node -e 'console.log(process.argv)' "$electronVersion")
             echo "2_$electronVersion2 _"
     
