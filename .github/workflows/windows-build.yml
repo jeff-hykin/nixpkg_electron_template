@@ -24,7 +24,8 @@ jobs:
 
       - name: Build Electron app
         run: |
-            $electronVersion=(npx electron --version).TrimStart("v").Trim().TrimStart(" ").Trim()
+            $electronVersion=(npx electron --version)
+            $electronVersion=(node -e 'console.log(process.argv[1].match(/\d+.+/)[0])' $electronVersion)
             echo "_$electronVersion _"
             npx electron-packager . ExampleApp --electron-version "38.1.2" `
                 --out=dist --overwrite `
