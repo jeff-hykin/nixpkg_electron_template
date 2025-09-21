@@ -21,7 +21,7 @@ jobs:
             where npx
             $electronVersion3=(node run/get_electron_version.js)
             echo "3_$electronVersion3 _"
-            $electronVersion=(npx electron --version)
+            $electronVersion = ((npx electron --version) -join "").Trim().TrimStart("v")
             echo "1_$electronVersion _"
             $electronVersion=$electronVersion.Substring(2)
             $electronVersion2=(node -e 'console.log(process.argv)' "$electronVersion")
