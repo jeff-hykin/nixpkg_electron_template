@@ -16,10 +16,10 @@ jobs:
 
       - name: Build Electron app
         run: |
-            $electronVersion=(npx electron --version)
+            npx electron --version
             $electronVersion=(npx electron --version).Substring(2)
             echo "1_$electronVersion _"
-            $electronVersion2=(node -e 'console.log(process.argv[1].match(/\d+.+/))' "$electronVersion")
+            $electronVersion2=(node -e 'console.log(process.argv)' "$electronVersion")
             echo "2_$electronVersion2 _"
     
       - name: Setup Node.js
