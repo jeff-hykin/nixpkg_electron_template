@@ -17,6 +17,7 @@ jobs:
       - name: Build Electron app
         run: |
             npx electron --version
+            where npx
             $electronVersion3=(node run/get_electron_version.js)
             echo "3_$electronVersion3 _"
             $electronVersion=(npx electron --version)
