@@ -154,11 +154,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1759500230,
-        "narHash": "sha256-mG01El9iD3N3hK3h3xTxfLzXtQX96klKEwTU5ArmpdU=",
+        "lastModified": 1761411794,
+        "narHash": "sha256-4gzCSCpULuD0Fv6S7Y4qc8AvTPPkwqmxlBBtHQMHLx4=",
         "owner": "jeff-hykin",
         "repo": "xome",
-        "rev": "a118a7caf3f4d0bfd11193ac30f234f5ac80d0dc",
+        "rev": "ed671f13d6144b4546ce8e09d63529590f5231ce",
         "type": "github"
       },
       "original": {
