@@ -1,2 +1,14 @@
 out/
+
+# 
+# standard
+# 
+**/*.do_not_sync
+**/*.do_not_sync.*
+**/*.ignore
+**/*.ignore.*
+**/*.secret
+**/*.secret.*
+
 node_modules
+.DS_Store
