@@ -1,0 +1,9 @@
+docker build -t electron-cross .
+docker run --rm -v "${PWD}:/project" electron-cross
+docker run --rm -it  electron-cross:latest
+
+
+docker buildx build --platform=linux/arm64 -t my-electron-app .
+docker run --rm -it  electron-cross:latest
+docker buildx build --platform=linux/arm64 --load -t my-electron-app .
+docker run --rm -v "${PWD}:/project" my-electron-app

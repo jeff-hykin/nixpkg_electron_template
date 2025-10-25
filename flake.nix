@@ -131,6 +131,8 @@
                 depenencies = {
                     common = [
                         pkgs.libiconv
+                        pkgs.electron
+                        pkgs.nodejs_20
                     ];
                     linux = pkgsForPkgConfigTool ++ [
                         pkgs.gcc
@@ -153,8 +155,6 @@
                         pkgs.wb32-dfu-updater
                         pkgs.gnumake
                         pkgs.teensy-loader-cli
-                        pkgs.nodejs
-                        pkgs.electron
                     ];
                 };
                 nativeBuildInputs = depenencies.common ++ (if pkgs.stdenv.isLinux then depenencies.linux else (if pkgs.stdenv.isDarwin then depenencies.macos else []));
@@ -182,6 +182,10 @@
                 '';
             in
                 {
+                    packages = {
+                        electron = pkgs.electron;
+                        nodejs = pkgs.nodejs_20;
+                    };
                     devShells = xome.simpleMakeHomeFor {
                         inherit pkgs;
                         pure = true;
