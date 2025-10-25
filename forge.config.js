@@ -52,7 +52,7 @@ module.exports = {
           owner: 'jeff-hykin',
           name: 'nixpkg_electron_template'
         },
-        prerelease: true
+        draft: true
       }
     }
   ]
