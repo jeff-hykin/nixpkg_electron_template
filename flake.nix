@@ -29,6 +29,7 @@
                     pkgs.esbuild
                     pkgs.zip
                     pkgs.unzip
+                    pkgs.less
                 ];
             in
                 {
