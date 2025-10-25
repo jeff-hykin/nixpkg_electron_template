@@ -24,7 +24,6 @@
   "name": "nixpkg_electron_template",
   "version": "1.0.0",
   "description": "",
-  "main": "forge.config.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jeff-hykin/nixpkg_electron_template.git"
@@ -35,5 +34,6 @@
   "bugs": {
     "url": "https://github.com/jeff-hykin/nixpkg_electron_template/issues"
   },
+  "main": "main.js",
   "homepage": "https://github.com/jeff-hykin/nixpkg_electron_template#readme"
 }
