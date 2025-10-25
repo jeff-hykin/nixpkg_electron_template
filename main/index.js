@@ -1,1 +1,0 @@
-if (require('electron-squirrel-startup') === true) app.quit();

@@ -6,7 +6,7 @@ module.exports = {
     asar: true,
     ignore: [
       /^.*\.ignore(\.|$).*/,
-    ]
+    ],
   },
   rebuildConfig: {},
   makers: [
@@ -44,4 +44,16 @@ module.exports = {
       [FuseV1Options.OnlyLoadAppFromAsar]: true,
     }),
   ],
+  publishers: [
+    {
+      name: '@electron-forge/publisher-github',
+      config: {
+        repository: {
+          owner: 'jeff-hykin',
+          name: 'nixpkg_electron_template'
+        },
+        prerelease: true
+      }
+    }
+  ]
 };

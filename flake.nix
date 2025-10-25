@@ -27,6 +27,8 @@
                 inputPackages = [
                     pkgs.nodejs
                     pkgs.esbuild
+                    pkgs.zip
+                    pkgs.unzip
                 ];
             in
                 {
