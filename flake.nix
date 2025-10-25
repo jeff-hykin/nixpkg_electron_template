@@ -56,7 +56,7 @@
                     devShells = xome.simpleMakeHomeFor {
                         inherit pkgs;
                         pure = true;
-                        commandPassthrough = [ "codesign" ];
+                        commandPassthrough = [ "codesign" "git" ];
                         homeModule = {
                             # for home-manager examples, see: 
                             # https://deepwiki.com/nix-community/home-manager/5-configuration-examples
