@@ -1,6 +1,11 @@
 name: Release app
 on:
   workflow_dispatch:
+
+permissions:
+  contents: write
+  releases: write
+
 jobs:
   build:
     strategy:
